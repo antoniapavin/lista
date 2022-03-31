@@ -1,0 +1,139 @@
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 100px;
+    animation: changeBackgroundColor 5s infinite;
+    
+}
+@keyframes changeBackgroundColor {
+    0%{
+        background-color: rgb(219, 81, 81);
+    }
+    50%{
+        background-color: rgb(228, 228, 124);
+    }
+    100%{
+        background-color: rgb(96, 96, 221);
+    }
+}
+
+.intro {
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+    font-weight: 600;
+}
+
+#first {
+    margin-top: 10px;
+    color: black;
+}
+
+#second {
+    color: #5a5a5a;
+
+}
+
+#third {
+    color: #5a5a5a;
+    margin-bottom: 30px;
+}
+
+
+.dados{
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+#enter {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #04A1BF;
+    background-color: #ffffff;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75 ease;
+    font-weight: normal;
+    display: inline-block;
+}
+
+#enter:hover{
+    background-color: #02798F;
+    color: #FFCD5D;
+}
+
+    #enter img{
+        width: 25px;
+        height: 25px;
+    }
+
+ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 70px;
+    margin-bottom: 10px;
+    background: grey;
+    
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5 ease;
+    
+}
+
+
+li:hover {
+    background: grey;
+}
+
+li > button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: white;
+    font-weight: 800;
+}
+
+input {
+    border-radius: 5px;
+    min-width: 90%;
+    padding: 5px;
+    height: 35px;
+    border: none;
+    margin: 0px;
+    float: left;
+}
+
+
+.done {
+    background: red;
+    color: white;
+}
+
+.delete {
+    display: none;
+}
